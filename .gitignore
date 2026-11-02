@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Resultados de treino (o modelo final fica em models/)
+runs/
+
+# Pesos baixados automaticamente pelo Ultralytics
+yolov8n.pt
+yolo11n.pt
+
+# Saídas geradas nos testes
+resultado_teste_xadrez.jpg
+resultado_tabuleiro_diferente.jpg
+response_*.json
