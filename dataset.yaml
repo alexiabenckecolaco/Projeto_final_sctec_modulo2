@@ -1,0 +1,6 @@
+# Caminhos relativos à pasta deste arquivo
+train: meu_dataset/train/images
+val: meu_dataset/valid/images
+
+nc: 12  # número de classes
+names: ['bispo_preto', 'rei_preto', 'cavalo_preto', 'peao_preto', 'rainha_preto', 'torre_preto', 'bispo_branco', 'rei_branco', 'cavalo_branco', 'peao_branco', 'rainha_branco', 'torre_branco']  # ordem igual aos IDs dos rótulos (0-11)
